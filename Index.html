@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplex | Spécialiste Apple macOS iOS</title>
+    <meta name="description" content="Aplex - Société spécialiste Apple : vente, gestion de parc, maintenance macOS iOS pour professionnels">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="img/logo.svg" alt="Aplex - Logo" class="logo">
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#presentation" class="nav-link">Présentation</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-list">
+            <li><a href="#presentation" class="mobile-nav-link">Présentation</a></li>
+            <li><a href="#services" class="mobile-nav-link">Services</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Spécialiste Apple macOS & iOS</h1>
+                <p class="hero-subtitle">Vente, gestion de parc et maintenance professionnelle</p>
+                <a href="#contact" class="btn btn-primary">Nous contacter</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="presentation">
+        <div class="container">
+            <h2 class="section-title">Qui sommes-nous ?</h2>
+            <div class="text-content">
+                <p class="lead"><strong>Aplex</strong> est une société spécialisée dans l'écosystème Apple, dédiée à accompagner les professionnels dans leur transition numérique et la gestion optimale de leur parc informatique.</p>
+                <p>Forts de plusieurs années d'expérience, nous mettons notre expertise technique et notre passion pour les produits Apple au service de vos besoins métiers.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-dark" id="services">
+        <div class="container">
+            <h2 class="section-title">Nos Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Vente de matériel Apple</h3>
+                    <p>MacBook, iMac, iPhone, iPad, accessoires certifiés</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Gestion de parc</h3>
+                    <p>Déploiement, MDM, configuration centralisée</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Maintenance & Support</h3>
+                    <p>Dépannage, mises à jour, support technique</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛡️</div>
+                    <h3>Sécurité & Sauvegarde</h3>
+                    <p>Protection des données, sauvegardes automatisées</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-nous</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>Vous avez un projet ou une question ? Notre équipe est à votre disposition.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label">Email :</span>
+                            <a href="mailto:contact@aplex.fr" class="contact-value">contact@aplex.fr</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Téléphone :</span>
+                            <a href="tel:+33123456789" class="contact-value">+33 1 23 45 67 89</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" class="form">
+                        <div class="form-group">
+                            <label class="form-label">Nom *</label>
+                            <input type="text" name="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email *</label>
+                            <input type="email" name="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Message *</label>
+                            <textarea name="message" class="form-textarea" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <img src="img/logo.svg" alt="Aplex" class="footer-logo">
+            </div>
+            <p class="copyright">&copy; 2024 Aplex. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop">↑</button>
+    <script src="js/script.js"></script>
+</body>
+</html>
